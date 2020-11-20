@@ -56,7 +56,7 @@ public class DriverManager {
                 driver = new InternetExplorerDriver();
                 break;
             case CHROME:
-                System.setProperty("webdriver.chrome.driver", "/Users/khanhtran/Downloads/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "src/test/resources/calculator/drivers/chromedriver");
                 driver = new ChromeDriver();
                 break;
             default:
